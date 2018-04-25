@@ -1,0 +1,9 @@
+/Excel_JSON/nbproject/private/
+/Excel_JSON/build/
+/Excel_JSON/dist/
+*.xlsx
+elasticsearch-5.6.2
+kibana-5.6.2-windows-x86
+logstash-5.6.3
+I386
+*.class
