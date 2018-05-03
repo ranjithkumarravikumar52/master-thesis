@@ -4,13 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
+
 import java.util.*;
-import main.App;
+
 //API needed for reading microsoft documents
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -74,7 +70,7 @@ public class ExcelFile {
         }
     }
 
-    private static boolean isHeaderRow(Row currentRow) {
+    private boolean isHeaderRow(Row currentRow) {
         return currentRow.getRowNum() == 0;
     }
 
